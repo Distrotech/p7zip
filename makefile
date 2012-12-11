@@ -4,7 +4,7 @@ DEST_HOME=/usr/local
 DEST_BIN=$(DEST_HOME)/bin
 DEST_SHARE=$(DEST_HOME)/lib/p7zip
 DEST_SHARE_DOC=$(DEST_HOME)/share/doc/p7zip
-DEST_MAN=$(DEST_HOME)/man
+DEST_MAN=$(DEST_HOME)/share/man
 
 .PHONY: default all all2 7za 7zG 7zFM sfx 7z 7zr Client7z common common7z clean tar_bin depend test test_7z test_7zr test_7zG test_Client7z all_test app
 
